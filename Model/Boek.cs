@@ -20,6 +20,6 @@ namespace ConsoleAppEFTutorial.Model {
         public string Titel { get; set; }
         public string Beschrijving { get; set; }
         public Uitgeverij Uitgeverij { get; set; }
-        public List<Auteur> Auteurs { get; set; }
+        public List<Auteur> Auteurs { get; set; } = new List<Auteur>();
     }
 }
